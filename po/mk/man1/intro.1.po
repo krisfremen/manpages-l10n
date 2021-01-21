@@ -1,17 +1,20 @@
 # Macedonian translation of manpages
 # This file is distributed under the same license as the manpages-l10n package.
 # Copyright © of this file:
+# Kris Fremen <me@krisfremen.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: manpages-l10n 4.2.0\n"
 "POT-Creation-Date: 2020-12-26 20:55+01:00\n"
-"PO-Revision-Date: 2020-12-26 20:55+01:00\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-01-21 04:32-0500\n"
+"Last-Translator: Kris Fremen <me@krisfremen.com>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. type: TH
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -31,14 +34,14 @@ msgstr "13. Август 2020 година"
 #: opensuse-tumbleweed
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Линукс"
 
 #. type: TH
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
 #: opensuse-tumbleweed
 #, no-wrap
 msgid "Linux User's Manual"
-msgstr ""
+msgstr "Линукс Кориснички Прирачник"
 
 #. type: SH
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -51,7 +54,7 @@ msgstr "ИМЕ"
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
 #: opensuse-tumbleweed
 msgid "intro - introduction to user commands"
-msgstr ""
+msgstr "вовед - воведување во кориснички команди"
 
 #. type: SH
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -68,13 +71,17 @@ msgid ""
 "manipulation tools, shells, compilers, web browsers, file and image viewers "
 "and editors, and so on."
 msgstr ""
+"Дел 1 од овој прирачник опишува кориснички команди и алатки, на пример,"
+" алатки "
+"за манипулација на фајлови, шелови, компајлери, веб пребарувачи, прегледувачи "
+"и уредници на фајлови и слики, и така натака."
 
 #. type: SH
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
 #: opensuse-tumbleweed
 #, no-wrap
 msgid "NOTES"
-msgstr ""
+msgstr "ЗАБЕЛЕШКИ"
 
 #. type: Plain text
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -84,6 +91,8 @@ msgid ""
 "under UNIX work precisely the same under Linux (and FreeBSD and lots of "
 "other UNIX-like systems)."
 msgstr ""
+"Linux e вкус на УНИКС(UNIX), и како прв вовед, сите команди под УНИКС "
+"работат исто под Линукс (и FreeBSD и многу други УНИКС-слични системи)"
 
 #. type: Plain text
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -96,13 +105,23 @@ msgid ""
 "is faster and more powerful, but requires finding out what the commands "
 "are.  Below a bare minimum, to get started."
 msgstr ""
+"Под Линукс, постојат ГУИ/GUI(графички кориснички интерфејси), каде што можете"
+" да посочите "
+"и кликнете и повлечете, и со надеж да завршите вашата работа без прво да"
+" читате премногу"
+"документација. Традиционалното опкружување на УНИКС е КЛИ/CLI(командна линија "
+"интерфејс), каде што пишувате команди за да му кажете на компјутерот што да"
+" прави. Тоа "
+"е побрзо и помоќно, но треба да знаете што прават командите. Подолу е"
+" минимална команда, "
+"за да почнете."
 
 #. type: SS
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
 #: opensuse-tumbleweed
 #, no-wrap
 msgid "Login"
-msgstr ""
+msgstr "Логирај се"
 
 #. type: Plain text
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -114,13 +133,20 @@ msgid ""
 "get a screen with menus or icons and a mouse click will start a shell in a "
 "window.  See also B<xterm>(1)."
 msgstr ""
+"За да започнете со работа, најверојатно прво треба да отворите сесија со "
+"најавување со вашето корисничко име и лозинка. Програмата B<login>(1) сега "
+"ќе почне I<shell> (толкувач на команди) за тебе. Во случај на графичко"
+" најавување, "
+"ќе добиете екран со менија или икони и кликнување на глувчето ќе започне шел"
+" во "
+"нов прозорец. Видете исто така B<xterm>(1)."
 
 #. type: SS
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
 #: opensuse-tumbleweed
 #, no-wrap
 msgid "The shell"
-msgstr ""
+msgstr "Шелот"
 
 #. type: Plain text
 #: archlinux debian-buster debian-unstable fedora-rawhide mageia-cauldron
@@ -487,3 +513,4 @@ msgid ""
 "version of this page, can be found at \\%https://www.kernel.org/doc/man-"
 "pages/."
 msgstr ""
+
